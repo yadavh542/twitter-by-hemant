@@ -25,3 +25,11 @@ pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+Twitter APi Key: vPNhIDdrQca9xDVRmae9vx3z6
+
+Twitter API Key Secret: Xm64GpmO3uhGvZrkoTjUuEH9hZneyZyqgRQjscqg4nsE20KrHB
+
+Twitter Bearer Token: AAAAAAAAAAAAAAAAAAAAAKSugAEAAAAAGve3JF%2BMFDowO9MCsAbsg5S4ClE%3DqFq8xm32uHlSAUK0CTqWaHHSqYYwGyW431XnKSQne8aiaF9kvQ
+
