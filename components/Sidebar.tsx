@@ -18,7 +18,7 @@ interface Props {
   tweet: Tweet
 }
 
-export const Sidebar = ({tweet}: Props) => {
+export const Sidebar = () => {
   const {data:session} = useSession();
 
   return (

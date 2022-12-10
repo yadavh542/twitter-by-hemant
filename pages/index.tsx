@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { GetServerSideProps, NextPage } from 'next'
 import Head from 'next/head'
 import { Toaster } from 'react-hot-toast';
@@ -9,10 +10,11 @@ import { fetchTweets } from '../utils/fetchTweets';
 
 //import Image from 'next/image'
 interface Props {
-  tweets: Tweet[]
+  tweets: Tweet[],
+  tweet: Tweet
 }
 
-const Home = ({tweets}: Props) => {
+const Home = ({tweets,tweet}: Props) => {
   //console.log(tweets);
 
   return (
@@ -25,7 +27,7 @@ const Home = ({tweets}: Props) => {
 
       <main className="grid grid-cols-9 ">
         {/* Sidebar */}
-        <Sidebar/>
+        <Sidebar tweet={tweet}/>
         {/* Feed */}
         <Feed tweets={tweets}/>
         {/* Widgets */}
