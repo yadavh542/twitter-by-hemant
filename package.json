@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage":"https://twitter-by-hemant.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
